@@ -1,0 +1,29 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=wt_camera_fritz_v3
+*Date=08:44:18
+*CreatedBy=Fritzing 0.9.6b..
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;THT;43.2697;-27.3471;180;Bottom;gnd
+2;;THT;33.1097;-22.2671;180;Bottom;xiao
+3;;THT;35.6497;-22.2671;180;Bottom;breakout
+4;;[THT];5.87972;-12.3972;0;Bottom;S3
+5;;;40.7297;-34.9671;0;Bottom;Hole2
+6;;THT;20.4097;-22.2672;180;Bottom;xiao
+7;;THT;25.5087;-8.11702;-90;Bottom;+
+8;;THT;12.7897;-8.29712;90;Bottom;10k ohm
+9;;;5.16967;-34.9671;0;Bottom;Hole4
+10;;THT;12.7897;-24.8071;180;Bottom;J
+11;;;5.16967;-4.48712;0;Bottom;Hole3
+12;;THT;43.2697;-17.1871;180;Bottom;3.3V
+13;;;40.7297;-4.48712;0;Bottom;Hole1
+14;;THT;5.16967;-24.8071;180;Bottom;mems
