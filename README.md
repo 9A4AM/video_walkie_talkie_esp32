@@ -19,6 +19,8 @@ otherwise, you need to configure your microphone pins.
 ## display_side
 The __I2S__ pins are configured from the `src/config.h` file. You need to set up the pins for your amplifier. Can ignore the microphone pins in this project.
 
+If you're using the cheap yellow display set the back light to -1 because pin 21 is being used as the word select for the amplifier. This means pin 21 will still be high, so the screen will still work. I set my backlight in the plaform.ini file. But if you're using Arduino IDE, you need to set it in user_setup.h in the TFT_eSPI library.
+
 # Parts List (most parts you need two of, one for each hand set)
 1. seeed xiao sense esp32S3 cam: see https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/
 2. elecrow crowpanel 2.8 inch display with esp32: see https://www.elecrow.com/esp32-display-2-8-inch-hmi-display-spi-tft-lcd-touch-screen.html
