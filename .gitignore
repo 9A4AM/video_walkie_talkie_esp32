@@ -1,6 +1,9 @@
 # Prerequisites
 *.d
 
+.pio*
+.pio/*
+
 # Object files
 *.o
 *.ko
