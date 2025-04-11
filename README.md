@@ -1,7 +1,7 @@
 # video_walkie_talkie_esp32
 esp32 cam and cheap yellow display for video walkie talkie
 
-Explantory video is at: 
+Explantory video is at: ref
 
 ## Project code an update of Chris Greening's atomic14 esp32 walkie talkie project.
 https://github.com/atomic14/esp32-walkie-talkie
