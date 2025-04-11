@@ -47,7 +47,7 @@ void tft_init()
     tft.setTextColor(TFT_WHITE, TFT_BLACK);
     tft.fillScreen(TFT_BLACK);
     #ifdef CYD_DISPLAY
-    tft.invertDisplay(true); //original and aliexpress but not elecros
+    tft.invertDisplay(true); //original and aliexpress but not elecrow
     digitalWrite(21, HIGH); //fudge to get the display to work
     #endif
     tft.setSwapBytes(true);
