@@ -29,7 +29,7 @@ void setup()
   // WiFi.setSleep(WIFI_PS_NONE);
   // WiFi.mode(WIFI_AP);
   Serial.println("Setting up WiFi");
-  ssid = "ESP32-CAM-AP_red";
+  //ssid = "ESP32-CAM-AP_red";
   WiFi.softAP(ssid, password);
   Serial.println("Access Point Started");
   // start up the application
